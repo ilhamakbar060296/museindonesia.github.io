@@ -32,10 +32,6 @@
       min-height: 50vh;
     }   
 }
-.search-btn{
-    background-color: white;
-    border-left: none;                                
-}
 /* Modal */
 .flexmodal{
     display:flex;                
@@ -69,9 +65,6 @@
 .img-wrapper{
     max-width: 100%;
     max-height: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-start; */
 }
 /* Card */
 .card{ 
@@ -83,10 +76,6 @@
     max-width: 100%;
     max-height: 100%;
 }
-/* Button */
-.bt-container{
-      display:flex;
-}  
 /* Youtube */
 .youtube{
   margin-right: 10px;
