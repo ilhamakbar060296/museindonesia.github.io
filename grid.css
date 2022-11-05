@@ -1,0 +1,31 @@
+.blank {grid-area: blank;}
+.pembuat {grid-area: pembuat;}
+.main { grid-area: main; }
+.grid-container{
+    display: grid;
+    gap: 1em;
+    grid-template-areas:             
+    'main'
+    'pembuat';
+}        
+.grid-container > div {
+    background-color:white;
+}
+@media only screen and (min-width: 650px){
+    .grid-container{
+        display: grid;
+        grid-template-areas:         
+        'blank main main main pembuat';
+        grid-template-columns: 10vw auto auto auto 40vw ; 
+        grid-template-rows: auto auto auto auto auto auto ;   
+    }
+}
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+textarea{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
